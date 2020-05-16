@@ -23,7 +23,7 @@ const onResumeClick = () => {
 return(
    <a onClick={onResumeClick}>
    <Button primary>
-     Click here for Resume
+     Click here for my Resume
       </Button>
    </a>
 );
