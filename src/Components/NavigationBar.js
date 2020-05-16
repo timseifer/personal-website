@@ -26,7 +26,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
     <Styles>
     <Navbar expand="lg">
-        <Navbar.Brand href="/">Tim Seifert</Navbar.Brand>
+        <Navbar.Brand href="/personal-website/#/">Tim Seifert</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navbar">
