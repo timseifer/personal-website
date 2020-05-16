@@ -24,8 +24,8 @@ render() {
               <slideshow />
           </main>
           <Layout>
-              <Router basename={process.env.PUBLIC_URL}>
-                <Switch>
+              <Router>
+                <Switch basename="personal-website">
                 <Route exact path= "/" component={Home} />
                 <Route path= "/about" component={About} />
                 <Route path= "/contact" component={Contact} />
