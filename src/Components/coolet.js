@@ -12,17 +12,16 @@ const Apples = () => {
       { transform: 'perspective(600px) rotateX(180deg)', color: '#28d79f' },
       { transform: 'perspective(600px) rotateX(0deg)' },
     ],
-    leave: [{ color: '#c23369' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
-    update: { color: '#28b4d7' },
+    leave: [{ color: '#F8F8FF' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
+    update: { color: '#20B2AA' },
   })
 
   const reset = useCallback(() => {
     ref.current.map(clearTimeout)
     ref.current = []
     set([])
-    ref.current.push(setTimeout(() => set(['Apples', 'Oranges', 'Kiwis']), 2000))
-    ref.current.push(setTimeout(() => set(['Apples', 'Kiwis']), 5000))
-    ref.current.push(setTimeout(() => set(['Apples', 'Bananas', 'Kiwis']), 8000))
+    ref.current.push(setTimeout(() => set(['Hello', 'I my names', 'Tim Seifert']), 2000))
+    ref.current.push(setTimeout(() => set(['Hello', 'Tim Seifert']), 5000))
   }, [])
 
   useEffect(() => void reset(), [])
