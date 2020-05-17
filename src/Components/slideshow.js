@@ -10,7 +10,7 @@ const slides = [
   { id: 3, url: 'photo-1503058474900-cb76710f9cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=3300&q=80' },
 ]
 
-export const App = () => {
+const Slideshow = () => {
   const [index, set] = useState(0)
   const transitions = useTransition(slides[index], item => item.id, {
     from: { opacity: 0, transform: 'scale(1.1)' },
@@ -27,3 +27,5 @@ export const App = () => {
     />
   ))
 }
+
+export default Slideshow;
