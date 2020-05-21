@@ -11,7 +11,7 @@ const Apples = () => {
       { opacity: 1, height: 80, innerHeight: 80 },
       { transform: 'perspective(600px) rotateX(180deg)', color: '#28d79f' },
       { transform: 'perspective(600px) rotateX(0deg)' },
-    ],
+  ],
     leave: [{ color: '#F8F8FF' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
     update: { color: '#20B2AA' },
   })
@@ -20,7 +20,7 @@ const Apples = () => {
     ref.current.map(clearTimeout)
     ref.current = []
     set([])
-    ref.current.push(setTimeout(() => set(['Hello', 'I my names', 'Tim Seifert']), 2000))
+    ref.current.push(setTimeout(() => set(['Hello', 'my names', 'Tim Seifert']), 2000))
     ref.current.push(setTimeout(() => set(['Hello', 'Tim Seifert']), 5000))
   }, [])
 
