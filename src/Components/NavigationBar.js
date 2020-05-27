@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components'
+import SocialFollow from './SocialFollow.js';
 
 const Styles = styled.div`
     .navbar {
@@ -21,6 +22,10 @@ const Styles = styled.div`
   width:30%;
   margin-left: 35%;
 }
+
+.button-right{
+    margin-left;
+}
 `;
 
 export const NavigationBar = () => (
@@ -34,8 +39,11 @@ export const NavigationBar = () => (
                 <Nav.Item><Nav.Link href="/personal-website/#/about/">About</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/personal-website/#/contact/">Contact</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/personal-website/#/resume/">Resume</Nav.Link></Nav.Item>
-            </Nav>            
+            </Nav>             
     </Navbar.Collapse>
+    <Nav className = "button-right">
+    <SocialFollow />  
+    </Nav> 
     </Navbar>
     </Styles>
 )
