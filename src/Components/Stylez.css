@@ -21,3 +21,22 @@
   line-height: 80px;
   display: block;
 }
+
+.bg {
+    position: absolute;
+   left: .1%;
+   right: .1%;
+   margin-right: 10px;
+   margin-left: -4px;
+   margin-bottom: 2px;
+   top: 38.6%;
+   width: 1442px;
+   height: 602px;
+/* padding: 50px; */
+  background-size: cover;
+  background-position: center;
+  will-change: opacity;
+}
+
+
+

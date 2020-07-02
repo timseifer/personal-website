@@ -1,8 +1,34 @@
 
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-.card1 {
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu,
+    roboto, noto, segoe ui, arial, sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5
+ {
   position: absolute;
-  border-radius: 5px;
+  border-radius: 50px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11,8 +37,34 @@
 
 
 .card1 {
-    opacity: 0.9;
-    width: 25ch;
-    height: 25ch;
-    background-image: url(https://image.flaticon.com/icons/svg/414/414927.svg);
+    width: 5ch;
+    height: 5ch;
+    background-image: url(https://img.icons8.com/color/48/000000/c-plus-plus-logo.png);
+}
+
+.card2 {
+    width: 5ch;
+    height: 5ch;
+    background-image: url(https://img.icons8.com/nolan/64/javascript.png);
+}
+
+.card3 {
+    width: 5ch;
+    height: 5ch;
+    background-image: url(https://img.icons8.com/plasticine/100/000000/react.png);
+}
+
+.card4 {
+    width: 5ch;
+    height: 5ch;
+    background-image: url(https://img.icons8.com/metro/26/000000/css.png);
+}
+.card5 {
+    width: 5ch;
+    height: 5ch;
+    background-image: url(https://img.icons8.com/nolan/64/html.png);
+}
+
+.text {
+    text-align: center;
 }

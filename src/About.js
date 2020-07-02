@@ -1,8 +1,6 @@
 import React from 'react';
+import Slideshow from './Components/slideshow'
 
 export const About = () => (
-    <div>
-        <h2>About</h2>
-        <p>Well there's nothing much about me to be honest</p>
-    </div>            
+    <Slideshow />       
 )    

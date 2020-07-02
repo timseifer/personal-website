@@ -2,6 +2,10 @@
     background: #eee;
     padding: 25px 50px;
 }
+.faGithub{
+    color: #28a745;
+    padding: 25px 50px;
+}
 
 a.social{
     transition: tranform 250ms;

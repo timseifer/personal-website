@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components'
 import './Layout.css'
-import {Spring, useSpring, animated, config} from 'react-spring/renderprops'
+import {Spring, useSpring, animated, config, useTransition} from 'react-spring/renderprops'
 
 
 export const Layout = (value) => {
-    return(
+return (
     <Spring
         from = {{opacity: 0, marginTop: -100}}
         to = {{opacity: 1, marginTop: 0}} >
@@ -14,7 +14,9 @@ export const Layout = (value) => {
             <div
                 class ="centering-text"
                  >
+                 
                   {value.children}
+                  
              </div>
         
         </div>        
