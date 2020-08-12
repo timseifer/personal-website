@@ -2,7 +2,7 @@
   "name": "fresh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://timseifer.github.io/personal-website/home",
+  "homepage": "https://timseifer.github.io/personal-website/#/home",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
