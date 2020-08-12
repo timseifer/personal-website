@@ -2,12 +2,17 @@ import { render } from 'react-dom'
 import React, { useState, useEffect } from 'react'
 import { useTransition, animated, config } from 'react-spring'
 import './Stylez.css'
+import { img1 } from '../Assets/IMG_0013.jpg'
+import { img2 } from '../Assets/IMG_0016.jpg'
+import { img3 } from '../Assets/IMG_0195.jpg'
+import { img4 } from '../Assets/IMG_0298.JPG'
+
 
 const slides = [
-  { id: 0, url: 'photo-1551989137-334bd6577da3?ixlib=rb-1.2.1&w=3450&q=80' },
-  { id: 1, url: 'photo-1501560379-05951a742668?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=3300&q=80' },
-  { id: 2, url: 'photo-1551989137-b8ad7595d020?ixlib=rb-1.2.1&w=3300&q=80' },
-  { id: 3, url: 'photo-1503058474900-cb76710f9cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=3300&q=80' },
+  { id: 0, url: 'img1'},
+  { id: 1, url: 'img2'},
+  { id: 2, url: 'img3'},
+  { id: 3, url: 'img4'},
 ]
 
 export default function Slideshow() {
@@ -19,11 +24,13 @@ export default function Slideshow() {
     config: config.molasses,
   })
   useEffect(() => void setInterval(() => set(state => (state + 1) % 4), 2000), [])
-  return transitions.map(({ item, props, key }) => (
+  return transitions.map(({item, props, key }) => (
     <animated.div
       key={key}
       class="bg"
-      style={{ ...props, backgroundImage: `url(https://images.unsplash.com/${item.url}&auto=format&fit=crop)` }}
+      style={{...props, backgroundImage: `url(${item.url})`}}
     />
   ))
 }
+
+

@@ -4,6 +4,9 @@ import styled from 'styled-components'
 import Card from './Components/Card'
 import ReactDOM from 'react-dom'
 import styles from './Components/Card.css'
+import { render } from 'react-dom';
+
+import { ReactSVG } from 'react-svg';
 export const Home = () => (<div>
     <h2>Home</h2>
     <p>
@@ -20,8 +23,11 @@ At Tufts the first language taught is C++. Here a strong foundation in fundament
 These projects can be accessed on my github page and a few of my own personal projects can be found on my hobby code page. HTML javascript react and CSS were all
 used in the development of this website. Besides just enjoying to write use these languages for fun, in the summer 2020 I took a formal java programming class.
 </div>
+<savage />
   <Card />
 </div>)
+
+render(<ReactSVG src="/Components/mySavage.svg" />, document.getElementById('root'))
 
 
     

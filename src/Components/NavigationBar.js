@@ -5,7 +5,7 @@ import SocialFollow from './SocialFollow.js';
 
 const Styles = styled.div`
     .navbar {
-        background-color: #222;
+        background-color: #d3d3d3;
     }
     
     
@@ -39,6 +39,7 @@ export const NavigationBar = () => (
                 <Nav.Item><Nav.Link href="/personal-website/#/about/">About</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/personal-website/#/contact/">Contact</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/personal-website/#/resume/">Resume</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href="/personal-website/#/code/">Code</Nav.Link></Nav.Item>
             </Nav>             
     </Navbar.Collapse>
     <Nav className = "button-right">

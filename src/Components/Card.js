@@ -17,7 +17,7 @@ const textrans = (x, y) => `translate3d(${x / 2 + 750}px,${y / 3}px,0)`
 
 let items = range(1)
 let items2 = range(1)
-const interp = i => r => `translate3d(${36 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px,125px, 0)`
+const interp = i => r => `translate3d(${36 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px,50px, 0)`
 const res = `translate3d(0px,125px, 0)`
 
 export default function Card() {
@@ -29,7 +29,7 @@ export default function Card() {
 )
    },
    from: { radians: 0 },
-   config: { duration: 3600 },
+   config: { duration: 0 },
    reset: false,
   
  })

@@ -4,6 +4,7 @@ import './App.css';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { About } from './About';
+import { Code } from './Code';
 import { Download } from './Resumes'
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
@@ -30,6 +31,7 @@ render() {
                 <Route path= "/about" component={About} />
                 <Route path= "/contact" component={Contact} />
                 <Route path= "/resume" component={Download} />
+                <Route path= "/code" component={Code} />
                 <Route component={NoMatch} />
                 </Switch>
             </Router>
