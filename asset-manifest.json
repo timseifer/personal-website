@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.e0197139.chunk.css",
+    "main.js": "/personal-website/static/js/main.a76b8986.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.a76b8986.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.09d41a30.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.09d41a30.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/personal-website/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.7c281ba2.chunk.js": "/personal-website/static/js/2.7c281ba2.chunk.js",
+    "static/js/2.7c281ba2.chunk.js.map": "/personal-website/static/js/2.7c281ba2.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.b6cda6138ca6787812aef7cb93ef663f.js": "/personal-website/precache-manifest.b6cda6138ca6787812aef7cb93ef663f.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/personal-website/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.e0197139.chunk.css.map": "/personal-website/static/css/main.e0197139.chunk.css.map",
+    "static/js/2.7c281ba2.chunk.js.LICENSE.txt": "/personal-website/static/js/2.7c281ba2.chunk.js.LICENSE.txt",
+    "static/media/Comp15_1.png": "/personal-website/static/media/Comp15_1.1517cc92.png",
+    "static/media/Comp15_2.png": "/personal-website/static/media/Comp15_2.84c61e88.png",
+    "static/media/Comp15_3.png": "/personal-website/static/media/Comp15_3.8cfd2f3d.png",
+    "static/media/IMG_0013.jpg": "/personal-website/static/media/IMG_0013.e288850d.jpg",
+    "static/media/IMG_0016.jpg": "/personal-website/static/media/IMG_0016.551bd109.jpg",
+    "static/media/IMG_0195.jpg": "/personal-website/static/media/IMG_0195.a73ad6ec.jpg",
+    "static/media/IMG_0298.JPG": "/personal-website/static/media/IMG_0298.017f5503.JPG",
+    "static/media/Splendor.png": "/personal-website/static/media/Splendor.88380421.png",
+    "static/media/fixed_resume.pdf": "/personal-website/static/media/fixed_resume.114f6d24.pdf",
+    "static/media/waves.gif": "/personal-website/static/media/waves.7acfdd58.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09d41a30.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.7c281ba2.chunk.js",
+    "static/css/main.e0197139.chunk.css",
+    "static/js/main.a76b8986.chunk.js"
+  ]
+}
