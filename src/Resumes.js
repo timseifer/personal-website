@@ -1,5 +1,5 @@
 import React, {Component, useState} from 'react';
-import Pdf from './Assets/output.pdf';
+import Pdf from './Assets/fixed_resume.pdf';
 import styled from 'styled-components';
 import PDFViewer from 'pdf-viewer-reactjs';
 
@@ -34,7 +34,7 @@ return(
    <br>
    </br>
    You can also view it below
-   <PDFViewer document= {{url: 'https://timseifer.github.io/personal-website/static/media/output.7682a673.pdf'}} />
+   <PDFViewer document= {{url: 'https://timseifer.github.io/personal-websitestatic/static/media/fixed_resume.114f6d24.pdf'}} />
    </div>
   
    

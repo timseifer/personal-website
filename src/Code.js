@@ -3,8 +3,7 @@ import Parralax from './Components/Parralax'
 
 export const Code = () => (
     <ul>
-<Parralax />
-</ul>
-
+    <Parralax />
+    </ul>
        
 )    

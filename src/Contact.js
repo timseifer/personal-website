@@ -22,12 +22,19 @@ export const Contact = () => (
 <React.Fragment>
     <div>
         <h2>Contact Me</h2>
+        <div>
+            The button below will automatically open up an email draft as!
+        </div>
         <p>240-329-7141</p>
             <a onClick={onEmailClick}>
             <Button primary>
               email me!
                </Button>
             </a>    
+            <div>
+                If this doesn't work you can email me at timothy.seifert@tufts.edu. I'm looking
+                forward to hearing from you!
+            </div>
     </div> 
 
 </React.Fragment>
