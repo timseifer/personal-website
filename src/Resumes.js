@@ -34,7 +34,7 @@ return(
    <br>
    </br>
    You can also view it below
-   <PDFViewer document= {{url: 'https://timseifer.github.io/personal-websitestatic/static/media/fixed_resume.114f6d24.pdf'}} />
+   <PDFViewer document= {{url: 'https://timseifer.github.io/personal-website/static/media/fixed_resume.114f6d24.pdf'}} />
    </div>
   
    
